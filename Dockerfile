@@ -1,7 +1,7 @@
 FROM alpine:latest
 
 RUN apk update && \
-    apk add --no-cache vim bash mariadb mariadb-client mariadb-server-utils
+    apk add --no-cache vim bash mariadb
 
 
 ADD files/run.sh /scripts/run.sh
